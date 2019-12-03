@@ -76,7 +76,9 @@
 
 #endif
 
+#ifndef WEBSOCKETS_TCP_TIMEOUT
 #define WEBSOCKETS_TCP_TIMEOUT (2000)
+#endif
 
 #define NETWORK_ESP8266_ASYNC (0)
 #define NETWORK_ESP8266 (1)
